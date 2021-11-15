@@ -5,11 +5,9 @@
     }
     
     public function index(){
-      $data = [
-        'title' => 'Home',
-      ];
-     
+      $data = [];
+      
       $this->view('pages/index', $data);
     }
-
+    
   }
